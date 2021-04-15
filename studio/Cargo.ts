@@ -9,4 +9,4 @@ export class Cargo implements Payload {
         this.massKg = massKg;
         this.material = material;
     }
- } 
+ }

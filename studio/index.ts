@@ -4,7 +4,6 @@
 // TODO: 
 // * Code the Astronaut, Cargo, and Rocket classes in new files.
 // * Import the three classes into this file.
-
 import { Astronaut } from './Astronaut';
 import { Cargo } from './Cargo';
 import { Rocket } from './Rocket';
@@ -47,4 +46,4 @@ for (let i = 0; i < cargo.length; i++) {
    console.log(`${c.material}: ${loaded}`);
 }
 
-console.log(`Final cargo and astronaut mass: ${falcon9.currentMassKg()} kg.`); 
+console.log(`Final cargo and astronaut mass: ${falcon9.currentMassKg()} kg.`);
